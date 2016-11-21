@@ -1,0 +1,21 @@
+.ocpm-red{
+	background-color: red;
+}
+
+.ocpm-menu{
+	position: absolute;
+	background-color: white;
+	color: black;
+	line-height: 1em;
+	font-weight: bold;
+	border:1px solid grey;
+	border-radius:4px;
+	z-index:10000;
+}
+.ocpm-menu > *{
+	padding: 4px 0px 4px 10px;
+	border-radius:4px;
+}
+.ocpm-menu-item:hover{
+	background-color:#bbf;
+}

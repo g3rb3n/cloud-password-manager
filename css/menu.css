@@ -1,0 +1,14 @@
+body {
+	font-family: sans-serif;
+	min-width:357px;
+	overflow-x:hidden;
+	background: #eee;
+	font-size: 9pt;
+}
+div {
+	margin:5px;
+}
+div, button, input[type=text], input[type=password] {
+	display:block;
+	width: 100%;
+}

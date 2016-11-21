@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Cloud Password Manager</title>
+		<link rel="stylesheet" href="../css/menu.css" />
+		<script type="text/javascript" src="../js/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="../js/client.js"></script>
+		<script type="text/javascript" src="../js/options.js"></script>
+	</head>
+	<body>
+
+		<h4 align="center">Server connection</h4>
+		<div>
+			<label>Server</label>
+			<input type="text" id="base_url" placeholder="https://example.domain.com" />
+		</div>
+		<div>
+			<label>Username</label>
+			<input type="text" id="username"/>
+		</div>
+		<div>
+			<label>Password</label>
+			<input type="password" id="password"/>
+		</div>
+		<h4 align="center">UI settings</h4>
+		<div class='oneline'>
+			<input type="checkbox" id="showBelow"/>
+			<label>Show passwords below password field</label>
+		</div>
+		<div class='oneline'>
+			<input type="checkbox" id="showDebug"/>
+			<label>Debug</label>
+		</div>
+
+		<div>
+			<button id="save">Save</button>
+		</div>
+		<div>
+			<button id="getPasswords">Get passwords</button>
+		</div>
+
+		<div id="status"></div>
+
+	</body>
+</html>
